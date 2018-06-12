@@ -1,0 +1,39 @@
+/*Test: while statement - break
+*/
+
+int a = 10;
+while(a>0){
+	write(a);
+	break;
+	a-=2;
+}
+
+write(" ");
+
+int b = 10;
+while(b>0){
+	break;
+	write(b);
+	b-=2;
+}
+
+write(" ");
+
+int c = 10;
+while(a>0){
+	write(c);
+	c-=2;
+	write(c);
+	break;
+}
+
+write(" ");
+
+int d = 10;
+while(d>0){
+	write(d);
+	if(d==4){
+		break;
+	}
+	d-=2;
+}

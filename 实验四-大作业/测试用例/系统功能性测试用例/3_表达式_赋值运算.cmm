@@ -1,0 +1,20 @@
+/*assignment
+*/
+
+int i=10 ;
+   
+//Test: *=
+int multi=32 ;
+multi*= i;
+write("multi*= i:" ,multi);
+	
+//Test: /=
+int div=32  ;
+div/=i ;
+write("div/=i:" ,div);
+	  
+//Test: -=
+int mil=32 ;
+mil-= i;
+write("mil-= i:" , mil);
+	 

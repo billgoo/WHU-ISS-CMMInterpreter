@@ -1,0 +1,16 @@
+/*
+expresion priority detection
+*/
+
+   int i=10 ;
+   int j=20 ;
+  
+   //priority detsction in operation
+   int result=10+20*10+20/(8+2)-3%5 ;
+   write("operation detection:" ,result) ;
+   
+   //priority detsction in mixed logic
+   bool hun=10<201+20;
+   write("mixed logic detection:" ,hun) ;
+
+//209 true

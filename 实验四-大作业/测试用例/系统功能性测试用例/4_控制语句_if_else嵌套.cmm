@@ -1,0 +1,25 @@
+//Test "if and else" statement
+
+  int i=13 ;
+  //Test "if else if else"
+     if(i<=5){
+       write("bad" ,i) ;  
+     } else if(i<=10){
+       write("well" ,i) ;
+     }else if(i<=15){
+       write("good" ,i) ;
+    }
+
+//Test nest in "if" statement
+      int j=10 ;
+     if(j<20){
+      write("less than" , 20) ;
+
+        if(j<25){
+      write("less than" ,25 ) ;
+        }
+    }else{
+    write("more than",20);
+    if(j%10==2){int s=3;}
+    }
+

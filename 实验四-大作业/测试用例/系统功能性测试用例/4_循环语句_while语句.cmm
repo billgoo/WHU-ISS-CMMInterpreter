@@ -1,0 +1,23 @@
+/*Test: while statement
+and nest in while
+and the usage of "break"
+*/
+
+   int i=9 ;
+
+   while(i<13){
+      int j=10 ;
+      i=i+1;
+      
+	  
+	  write("i:" ,i) ;
+
+	//break: jump out of while
+	  if(i==12)break ;
+	 
+	  //nest in while
+	  while(j<11){
+	     write("j" ,j) ;
+		 j=j+1;
+	  }
+   }

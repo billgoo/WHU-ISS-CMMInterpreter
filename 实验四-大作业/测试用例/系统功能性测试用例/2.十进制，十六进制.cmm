@@ -1,0 +1,18 @@
+/*
+  computation between decimal and hexadecimal
+*/
+   //hexadecimal
+   int i=12;
+   
+   //decimal 
+   int k=20;
+   
+   int m=i+k;
+   write("hexadecimal",i);
+   write('%h',i);
+   write("decimal",k);
+   write('%d',k);
+   write('%d' ,m);
+   write('%h' ,m);
+
+		 

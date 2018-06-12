@@ -1,0 +1,28 @@
+/*judgement statement*/
+
+int i=100 ;
+int a=80;
+
+//more than
+bool da =i>a ;
+write("" ,da) ;
+   
+//less than
+bool xiao=i<i ;
+write("" ,xiao) ;
+	
+//more than and equal
+bool dadeng=i>=a;
+write("" ,dadeng) ;
+   
+//less than and equal
+bool xiaodeng=i<=a;
+write("" ,xiaodeng) ;
+	 
+//equal
+bool quandeng=i==a;
+write("" ,quandeng) ;
+	 
+//not equal
+bool feideng=i!=a;
+write("" ,feideng) ;

@@ -1,0 +1,37 @@
+//Test: if statement
+
+  int i=10 ;
+  //Test:  if stmt_block
+  if(i==5){
+      write(" " ,i+1) ;  
+     } 
+     
+  //Test:  if stmt
+     if(i==5)
+      write(" " ,i+2) ;  
+     
+  //Test:  if stmt_block else stmt_block
+  if(i==5){
+      write(" " ,i+3) ;
+   }else{
+       write(" " ,i+4) ;
+     }
+     
+  //Test:  if stmt_block else stmt
+  if(i==5){
+      write(" " ,i+5) ;
+   }else
+       write(" " ,i+6) ;
+     
+  //Test:  if stmt else stmt_block
+  if(i==5)
+      write(" " ,i+7) ;
+   else{
+       write(" " ,i+8) ;
+   }
+   
+  //Test:  if stmt else stmt
+  if(i==5)
+      write(" " ,i+9) ;
+   else
+      write(" " ,i+10) ;

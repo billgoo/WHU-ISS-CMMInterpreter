@@ -1,0 +1,21 @@
+/**
+ * 阶乘测试
+ * 2016-12-26
+ * 顾岩、朱雨晨
+ * 
+ * 阶乘测试 主要是
+ * a = N!,其中N为整数
+ */ 
+
+int a = 6;
+int factorial = 1;
+while( a != 0 )
+{
+	factorial = factorial * a;
+	a = a -1;
+}
+write( "",factorial );
+
+/*output:
+720
+*///:~  

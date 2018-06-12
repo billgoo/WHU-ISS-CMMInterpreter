@@ -1,0 +1,9 @@
+//Test: read statement
+
+int a=0,b[4],c=1;
+b[0]=1;
+b[1]=2;
+read(a);
+read(b[1]);
+write(a);
+write(b[1]);

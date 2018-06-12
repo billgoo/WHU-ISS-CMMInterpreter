@@ -1,0 +1,4 @@
+int a=3,b=4;
+double c=5.0;
+write(a*c-b/c);
+write(1-1.0);

@@ -1,0 +1,28 @@
+/*Test operation
+*/
+  
+int i=10 ;
+ 
+//Test: multiplication
+int multi=32*i;
+write("multiplication:" ,multi);
+	
+//Test: division
+int div=32/i;
+write("division:" ,div);
+
+//Test: Mod
+int remain=32%10 ;
+write("Mod:" ,remain);
+	
+//Test: Add
+int plus=32+i ;
+write("Add:" ,plus);
+	
+//Test: minus
+int mil=32-i ;
+write("minus:" , mil);
+	
+//error:divided by zero
+write("error"  ,0) ;
+int ling=32/0 ;

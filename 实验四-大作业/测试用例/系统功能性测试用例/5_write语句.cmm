@@ -1,0 +1,11 @@
+/*Test: write statement*/
+
+int a=3;
+double b=6.0;
+
+write(a/b);
+write("a is less than b");
+write('%f',b);
+write('%h',b);
+write("",a<b);
+

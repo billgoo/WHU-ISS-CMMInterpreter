@@ -1,0 +1,43 @@
+//Test: if statement condition
+
+int a = 0;
+int b = 10;
+int c = -2;
+bool d = true;
+bool e = false;
+
+if(a){
+	write(1);
+}else{
+	write(0);
+}
+
+if(b){
+	write(1);
+}else{
+	write(0);
+}
+
+if(c){
+	write(1);
+}else{
+	write(0);
+}
+
+if(d){
+	write(1);
+}else{
+	write(0);
+}
+
+if(e){
+	write(1);
+}else{
+	write(0);
+}
+
+if(true){
+	write(1);
+}else{
+	write(0);
+}

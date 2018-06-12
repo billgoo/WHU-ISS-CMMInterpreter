@@ -1,0 +1,18 @@
+//uninitialized
+int int1,a,b;
+double double1 ;
+int array[2],array_2[1];
+double array_3[a+b];
+
+/*initialed
+*/
+
+int apple,banana=4,orange=5,c[5];
+double c=3.14;
+double red=1.0,green=2.0,yellow=c;
+bool tem=true;
+
+   write("uninitialized int1" ,int1) ;   
+   write("initialed constant banana" ,banana) ;  
+   write("initialed variable yellow" ,yellow) ; 
+

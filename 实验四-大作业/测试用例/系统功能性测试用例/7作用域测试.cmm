@@ -1,0 +1,7 @@
+int i =1;
+{
+  int i=2 ;
+  write("i" , i) ;
+}
+  write("i" , i) ;
+
